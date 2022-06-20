@@ -1,0 +1,99 @@
+.navigation_menu {
+    position: relative;
+    z-index: 999;
+}
+
+.navigation_button{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.navigation_icon, .line02{
+    width: 2.5rem;
+    height: 2px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.line01{
+    margin-bottom: 8px;
+}
+.line03{
+    margin-top: 8px;
+}
+
+/***Animación abrir**/
+.button_open .line01  {
+    transform: rotate(45deg) translate(6px, 7px);
+    transition: all .3s ease; 
+}
+.button_open .line03  {
+    transform: rotate(-45deg) translate(6px,-7px);
+    transition: all .3s ease;    
+}
+
+.button_open .line02{
+    display: none;
+    opacity: 0;
+    transition: all .3s ease;
+}
+/***END Animación abrir**/
+/***Animación cerrar**/
+.button_close .line01  {
+    transition: all .3s ease; 
+}
+.button_close .line03  {
+    transition: all .3s ease;    
+}
+
+.button_close .line02{
+    transition: all .3s ease;
+}
+/***END Animación cerrar**/
+
+nav{
+    position: fixed;
+    top: -1000px;
+    right: 0;
+    width: 100%;
+    z-index: 998;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000090;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+nav li{
+    display: inline-block;
+    width: 100%;
+    padding: 4rem 4rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a li:hover{
+    text-decoration: underline;
+}
+

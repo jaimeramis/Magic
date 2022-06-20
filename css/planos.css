@@ -1,0 +1,146 @@
+.s-title {
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.60)), url(../img/planos_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.planos-contenedor {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+.planos-title{
+    font-size: 3rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.planos-title h2{
+    color: #fff;
+    text-align: center;
+}
+
+
+.s-accordion{
+    margin: 0 auto;
+    text-align: center;
+    width: 70rem;
+}
+
+.s-accordion div{
+    padding: 8px 0px;
+}
+
+.accordion {
+    width: 100%;
+    font-size: 2.6rem;
+    padding: 2.8rem 0px;
+    text-align: center;
+    text-decoration: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+  .amonkhet{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Amonkhet.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .innistrad{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Innistrad.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .kaldheim{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Kaldheim.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .kamigawa{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Kamigawa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .strixhaven{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Strixhaven.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .tarkir{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Tarkir.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .theros{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Theros.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .zendikar{
+    background-image: linear-gradient(to right bottom, rgba(167, 82, 82, 0.1), rgba(0, 0, 0, 0.20)),url(../img/planos/Zendikar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .accordion:hover{
+      color: #FF9013;
+  }
+  
+  .panel { 
+    text-align: left;
+    display: none;
+    overflow: hidden;
+  }
+
+  .panel ul{
+      list-style-type: none;
+      padding: 5px 18px;
+  }
+
+  .panel ul li{
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #FF9013;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 4px 2px;
+  }
+
+  .panel p{
+      margin-top: 10px;
+      color: #000000; 
+      font-style: italic;
+      padding: 0px 18px;
+      line-height: 24px;
+  }

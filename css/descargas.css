@@ -1,0 +1,64 @@
+.s-title {
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.60)), url(../img/descargas_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.descargas-contenedor {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+.descargas-title{
+    font-size: 3rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.descargas-title h2{
+    color: #fff;
+    text-align: center;
+}
+
+.links-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0,0%,100%,0.9);
+    padding: 40px 0px;
+}
+
+
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+.table-head{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ff5f2e;
+    color: #ffffff;
+}
+
+.table-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-text{
+    font-size: 20px;
+}
