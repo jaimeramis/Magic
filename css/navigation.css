@@ -5,7 +5,7 @@
 
 .navigation_button{
     position: fixed;
-    top: 2rem;
+    top: 1.1rem;
     right: 2rem;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ nav ul{
 nav li{
     display: inline-block;
     width: 100%;
-    padding: 4rem 4rem;
+    padding: 2.5rem 4rem;
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
